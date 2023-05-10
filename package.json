@@ -1,0 +1,21 @@
+{
+  "name": "aem-enhancer",
+  "version": "1.0.0",
+  "description": "This extension is made to improve productivity in AEM by adding right click features to your browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "AEM",
+    "Adobe Experience Manager",
+    "Rubens Rainelli"
+  ],
+  "author": "Rubens Rainelli",
+  "license": "CC-BY-NC-SA-4.0",
+  "devDependencies": {
+    "@types/chrome": "^0.0.235",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.1.1"
+  }
+}
