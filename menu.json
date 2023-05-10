@@ -1,0 +1,41 @@
+{
+    "aemEnhancer": {
+      "title": "AEM Enhancer",
+      "contexts": ["all"],
+      "children": [
+        {
+          "id": "openInEditor",
+          "title": "Open Selection in Editor",
+          "contexts": ["selection"],
+          "urlCheck": "editor.html"
+
+        },
+        {
+          "id": "openInProperties",
+          "title": "Open Selection in Properties",
+          "contexts": ["selection"],
+          "urlCheck": "editor.html"
+
+        },
+        {
+            "id": "openInAssets",
+            "title": "Open Selection in Assets",
+            "contexts": ["selection"],
+            "urlCheck": "editor.html"
+        },
+        {
+          "id": "realPathManagePubblication",
+          "title": "Manage Pubblication for Real Path of this page",
+          "contexts": ["all"],
+          "urlCheck": "editor.html"
+        },
+        {
+          "id": "copyRealPath",
+          "title": "Copy Real Path",
+          "contexts": ["all"],
+          "urlCheck": "editor.html"
+        }
+      ]
+    }
+  }
+  
