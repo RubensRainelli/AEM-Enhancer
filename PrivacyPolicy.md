@@ -1,0 +1,1 @@
+This component doesn't grab any data, so no need to have a policy.
