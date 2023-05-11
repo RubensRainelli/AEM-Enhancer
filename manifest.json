@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "AEM Enhancer by RubensRainelli",
   "version": "0.1",
   "short description": "This extension is made to improve productivity in AEM by adding right click features. By installing you accept LICENSE",
@@ -18,19 +18,27 @@
   ],
   
   "background": {
-    "service_worker": ["background.js"]
+    "scripts": ["background.js"],
+    "persistent": false
   },
   "action": {
     "default_icon": {
       "16": "./icons/16.png",
       "48": "./icons/48.png",
       "128": "./icons/128.png"
-    },
-    "default_popup":"management.html"
+    }
   },
   "icons": {
     "16": "./icons/16.png",
     "48": "./icons/48.png",
     "128": "./icons/128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "./icons/16.png",
+      "48": "./icons/48.png",
+      "128": "./icons/128.png"
+    },
+    "default_popup":"management.html"
   }
 }
