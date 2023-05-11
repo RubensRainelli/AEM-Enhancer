@@ -1,7 +1,7 @@
 {
   "name": "aem-enhancer",
   "version": "1.0.0",
-  "description": "This extension is made to improve productivity in AEM by adding right click features to your browser",
+  "description": "This extension is made to improve productivity in AEM by adding right click features to your browser. By Rubens Rainelli, by installing it you agree with the license",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -12,7 +12,7 @@
     "Rubens Rainelli"
   ],
   "author": "Rubens Rainelli",
-  "license": "CC-BY-NC-SA-4.0",
+  "license": "LICENSE.md",
   "devDependencies": {
     "@types/chrome": "^0.0.235",
     "webpack": "^5.82.0",
