@@ -93,7 +93,7 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
   if (info.menuItemId === "openSelectedInAssets") {
     var pathCopiata = info.selectionText;
     var url = new URL(tab.url);
-    var destinazione = url.origin + "/assets.html" + pathCopiata + ".html";
+    var destinazione = url.origin + "/assets.html" + pathCopiata;
 
     chrome.tabs.create({ url: destinazione });
   }
