@@ -1,0 +1,13 @@
+*.DS_store
+
+# Node.js modules
+#-----------------------------------
+node_modules/
+
+# IDE and editor configs
+#-----------------------------------
+.idea/
+.vscode/
+.log/
+*.code-workspace
+
