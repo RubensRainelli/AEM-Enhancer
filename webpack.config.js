@@ -1,7 +1,7 @@
 const path = require("path");
 
 module.exports = {
-  entry: "./background.js",
+  entry: "./service_worker.js",
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),

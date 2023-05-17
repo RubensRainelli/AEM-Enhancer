@@ -1,6 +1,6 @@
 {
   "name": "aem-enhancer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This extension is made to improve productivity in AEM by adding right click features to your browser. By Rubens Rainelli, by installing it you agree with the license",
   "main": "index.js",
   "scripts": {
