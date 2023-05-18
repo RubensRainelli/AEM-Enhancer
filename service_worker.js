@@ -28,6 +28,13 @@ chrome.runtime.onInstalled.addListener(function () {
 
   chrome.contextMenus.create({
     parentId: "aemEnhancer",
+    id: "openSelectedInSites",
+    title: "Open Selection in Sites",
+    contexts: ["selection"],
+  });
+
+  chrome.contextMenus.create({
+    parentId: "aemEnhancer",
     id: "openSelectedInAssets",
     title: "Open Selection in Assets",
     contexts: ["selection"],
@@ -94,6 +101,14 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
     var pathCopiata = info.selectionText;
     var url = new URL(tab.url);
     var destinazione = url.origin + "/assets.html" + pathCopiata;
+
+    chrome.tabs.create({ url: destinazione });
+  }
+
+  if (info.menuItemId === "openSelectedInSites") {
+    var pathCopiata = info.selectionText;
+    var url = new URL(tab.url);
+    var destinazione = url.origin + "/sites.html" + pathCopiata;
 
     chrome.tabs.create({ url: destinazione });
   }
